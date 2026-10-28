@@ -54,8 +54,8 @@ La clasificación automática funciona como apoyo exploratorio. Las predicciones
 | `dplyr`, `tidyr`, `stringr`, `purrr` | Transformación, limpieza y organización de datos                           |
 | `ggplot2`                            | Visualización de resultados                                                 |
 | `rmarkdown` y `knitr`                | Generación del informe reproducible                                         |
-| `sentence-transformers`              | Embeddings semánticos multilingües para el benchmark experimental            |
-| `scikit-learn`                       | Regresión logística y métricas para TF-IDF y embeddings                      |
+| `sentence-transformers`              | Embeddings semánticos multilingües para el benchmark experimental          |
+| `scikit-learn`                       | Regresión logística y métricas para TF-IDF y embeddings                   |
 
 ## Estructura del proyecto
 
@@ -253,9 +253,9 @@ Los principales archivos son:
 | `control_calidad.csv`                        | Resumen de validaciones y acuerdo                             |
 | `errores_etiquetado.csv`                     | Registros que necesitan corrección                           |
 | `dataset_sentimientos_umsa.csv`              | Dataset manual consolidado                                    |
-| `dataset_consenso_umsa.csv`                  | Acuerdos A/B, desacuerdos y filas anotadas solo por A          |
-| `desacuerdos_modelado.csv`                   | Plantilla privada para adjudicar polaridad y sentimientos       |
-| `dataset_modelado_umsa.csv`                  | Dataset objetivo después de completar la adjudicación           |
+| `dataset_consenso_umsa.csv`                  | Acuerdos A/B, desacuerdos y filas anotadas solo por A         |
+| `desacuerdos_modelado.csv`                   | Plantilla privada para adjudicar polaridad y sentimientos     |
+| `dataset_modelado_umsa.csv`                  | Dataset objetivo después de completar la adjudicación       |
 
 El contenido de los mensajes y las plantillas etiquetadas se mantienen fuera de Git para proteger la privacidad del chat.
 
@@ -319,7 +319,3 @@ TF-IDF. El híbrido fue seleccionado para clasificar el corpus completo.
 ## Uso académico
 
 Este repositorio fue preparado con fines educativos para la materia Data Mining. Cualquier uso de los datos debe respetar la privacidad de los participantes y las normas institucionales aplicables.
-
-## Documentación para la defensa
-
-La explicación completa del código, los conceptos de minería de texto y todos los archivos CSV se encuentra en [docs/GUIA_DEFENSA_Y_CSV.md](docs/GUIA_DEFENSA_Y_CSV.md).
