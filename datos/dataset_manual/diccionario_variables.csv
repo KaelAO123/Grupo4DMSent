@@ -1,0 +1,30 @@
+variable,tipo,descripcion
+message_id,identificador,Identificador único del mensaje
+gestion,entero,Año de la gestión
+fecha,fecha,Fecha local del mensaje
+hora,entero,Hora local de 0 a 23
+participante,seudonimo,Código anónimo del participante
+texto,texto,Contenido original del mensaje
+caracteres,entero,Número de caracteres
+palabras,entero,Número de palabras normalizadas
+signos_pregunta,entero,Cantidad de signos de pregunta
+signos_exclamacion,entero,Cantidad de signos de exclamación
+emojis,entero,Cantidad aproximada de emojis
+contiene_url,logico,Indica presencia de enlace
+dia_semana,categoria,Día local de la semana
+tipo_muestreo,categoria,Estrategia mediante la cual la fila entró a la muestra
+tiene_sentimiento,categoria,Decisión manual sobre presencia de sentimiento
+polaridad_manual,categoria,Polaridad asignada manualmente
+sentimiento_1,categoria,Sentimiento principal manual
+sentimiento_2,categoria,Segundo sentimiento opcional
+intensidad,ordinal,Intensidad de 0 a 3
+tema,categoria,Tema principal del mensaje
+ironia,categoria,Presencia de ironía
+confianza_anotacion,ordinal,Confianza del anotador
+observaciones,texto,Justificación o nota libre
+responsable,categoria,Integrante responsable del etiquetado en el archivo A
+polaridad_regla,categoria,Polaridad asignada automáticamente por el diccionario
+motivo_no_clasificado,categoria,Razón operativa cuando la regla no encontró evidencia
+emociones_regla,texto,Emociones detectadas automáticamente separadas por punto y coma
+evidencias_regla,texto,Términos raíces emojis o emoticonos que activaron las reglas
+tipos_regla,texto,Tipos de coincidencia automática separados por punto y coma
